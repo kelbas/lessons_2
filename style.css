@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+body {
+  max-width: 800px;
+}
 main {
   margin: 50px;
 } 
@@ -18,18 +21,20 @@ main {
 .section_first {
   font-size: 33px;
   font-weight: bold;
+  position: fixed;
 }
 .header_a {
   color: white;
 }
-ul {
+.ul {
   float: right;
   margin: 0;
+  margin-left: 64px;
 }
 img {
   width: 100%;
 }
-li {
+.li {
   list-style: none;
   display: inline;
 }
@@ -108,4 +113,10 @@ li {
 }
 .footer_span_2, .footer_span_1 {
   font-size: 25px;
+}
+.two_black_span_1, .two_black_span_2 {
+  color: white;
+}
+.two_black_span_1 {
+  font-size: 89px;
 }
